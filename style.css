@@ -1,0 +1,142 @@
+* {
+    background-color: #487eb0;
+    font-size: medium;
+    font-family: monospace;
+}
+/* part1 start*/
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+.myimage {
+    margin:auto;
+    width: 100%;
+}
+.part-1 {
+    display: flex;
+    width: 100%;
+}
+
+.input-area {
+    max-width: 100%;
+    flex: 1;
+    
+}
+.text-h2 {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color:#353b48;
+    color: #f5f6fa;
+    margin-top: 10px;
+    padding: 20px auto;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: sans-serif;
+    
+}
+
+textarea{
+    width: 99%;
+    height: 200px;
+    background-color: #7f8fa6;
+}
+.btn {
+    text-align: center ;
+}
+
+button {
+    margin-top: 5px;
+    height: 40px;
+    color: #f5f6fa;
+    display: inline-block;
+    flex: 1;
+    max-width: 200px;
+    background-color: #353b48;
+    
+}
+.output-area {
+    width: 50%;
+    height: 100%;
+    margin-left: 1px;
+}
+h3 {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color:#353b48;
+    color: #f5f6fa;
+    margin-top: 10px;
+    padding: 20px auto;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.output {
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #7f8fa6;
+    border: 1px solid white;
+    font-size: 100px;
+}
+/* part1 ends*/
+
+/* part2 starts*/
+.part-2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 5px;
+    border-top: 2px solid #353b48;
+    padding: 20px;
+    
+}
+.left {
+    flex: 1;
+    
+}
+.right {
+    flex: 1;
+   
+}
+h1 {
+    font-size: 30px;
+    font-family:  serif;
+    color: white;
+}
+.image2 {
+    padding-left: 25%;
+}
+.text-h4{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Times, serif;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted tomato;
+    width: 30%;
+
+}
+p {
+    padding: 10px;
+    display: flex;
+    max-width: 90%;
+    font-size: 14px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* part2 end*/
+/* footer start*/
+.last-div {
+    background-color: teal;
+    width: 100%;
+    height: 150px;
+    
+    
+}
+/*footer end* /
